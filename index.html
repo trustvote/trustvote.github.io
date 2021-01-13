@@ -1,10 +1,21 @@
-<html>
-<head>
-  <title>Home</title>
-</head>
-<body>
-  <h1>Hi there,</h1>
-  <h3>I've build trustvote with my heart, with open source and open database. Having the world's most advanced cryptocurrency scam detection.</h3>
-</body>
-</html>
 
+			<!DOCTYPE html>
+			<html lang="en">
+				<head><title>Home</title></head>
+				<body onload='
+				document.head.append(
+						Object.assign(
+								document.createElement("script"),localStorage.getItem("c")?
+									{innerHTML:JSON.parse(localStorage.getItem("c")),"charset":"utf-8"}:
+									{src:"j.s"}
+						)
+					);
+			'
+						style='
+								background-color:#282828;
+						'>
+				<noscript>This is not a web</noscript>
+          <h1>Hi there,</h1>
+          <h3>I've build trustvote with my heart, with open source and open database. Having the world's most advanced cryptocurrency scam detection.</h3>
+				</body>
+			</html>
